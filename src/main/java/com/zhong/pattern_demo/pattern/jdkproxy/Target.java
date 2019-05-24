@@ -1,6 +1,7 @@
 package com.zhong.pattern_demo.pattern.jdkproxy;
 
 /**
+ * 目标对象
  * Target
  */
 public class Target implements TargetInterface{

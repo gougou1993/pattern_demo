@@ -16,4 +16,13 @@ public class HungreSingleton {
     public static HungreSingleton getInstance() {
         return instance;
     }
+    public static void main(String[] args) {
+        HungreSingleton instance = HungreSingleton.getInstance();
+        HungreSingleton instance2 = HungreSingleton.getInstance();
+        if(instance == instance2){
+            System.out.println("instance == instance2");
+        }else{
+            System.out.println("instance != instance2");
+        }
+    }
 }
